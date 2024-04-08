@@ -1,0 +1,469 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.almarai-light {
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almarai-extrabold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background-color: #1f1f1f;
+  max-width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#container__pai {
+  background-image: url(/image/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  height: 804px;
+}
+
+#barra {
+  border-radius: 10px;
+  background: rgba(33, 33, 33, 0.58);
+  backdrop-filter: blur(25px);
+  width: 50%;
+  margin: auto;
+  height: 60.38px;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(33, 33, 33, 0.58);
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: SansSerif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 150% */
+  text-transform: uppercase;
+  padding-top: 19px;
+}
+
+#menu a:not(:last-child) {
+  margin-right: 30px;
+  /* Espaço entre os itens do menu, exceto o último */
+}
+
+#logo {
+  padding-top: 11px;
+}
+
+#container__pai h1 {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+#container__pai #titulo h1 {
+  color: #f70464;
+  text-align: center;
+  font-family: SansSerif;
+  font-size: 152.656px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160px;
+  /* 104.811% */
+  letter-spacing: -9.6px;
+}
+
+#container__pai #titulo p {
+  color: #fff;
+  text-align: center;
+  font-family: SansSerif;
+  font-size: 157.344px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160px;
+  /* 101.688% */
+  letter-spacing: -5px;
+  margin-top: -110px;
+}
+
+#container__pai p {
+  color: #fff;
+  font-family: SansSerif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.32px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+#botao {
+  width: 313px;
+  height: 36px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  font-family: SansSerif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #fff;
+  background: linear-gradient(89.17deg, #2b0248 6.15%, #c71247 93.85%);
+  align-items: center;
+  justify-content: center;
+}
+
+#texto {
+  padding: 80px 0 0 300px;
+  color: #ffffff;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* 101.587% */
+  letter-spacing: -1.6px;
+}
+
+h1 {
+  color: #f70464;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* 101.587% */
+  letter-spacing: -1.6px;
+}
+
+h1 .destaque1 {
+  color: #f70464;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.6px;
+}
+
+h1 .destaque2 {
+  color: #fff;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.6px;
+}
+
+h1 .destaque3 {
+  color: #fff;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -1.6px;
+}
+
+#texto #sub {
+  padding-top: 60px;
+  color: #fff;
+  font-family: SansSerif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  letter-spacing: 0.32px;
+}
+
+#texto #sub span {
+  padding-top: 25px;
+  color: #fff;
+  font-family: SansSerif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.32px;
+}
+
+#quadros {
+  padding-top: 51px;
+  display: flex;
+  gap: 15px;
+}
+
+.quadro {
+  display: flex;
+  width: 202px;
+  height: 182.17px;
+  padding: 0px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(
+    48deg,
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
+
+.quadro p {
+  color: #fff;
+  text-align: center;
+  font-family: SansSerif;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  /* 150% */
+  letter-spacing: 0.32px;
+}
+
+#portifolio {
+  padding: 80px 0 0 300px;
+}
+
+#portifolio h1 {
+  color: #f70464;
+  font-family: SansSerif;
+  font-size: 47.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 101.587% */
+  letter-spacing: -1.6px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease; /* Transição suave */
+}
+
+.carousel img {
+  gap: 50px;
+  width: 400px; /* Largura da imagem */
+
+  flex-shrink: 0; /* Evitar que a imagem seja reduzida */
+}
+
+#compromisso {
+  display: grid;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+#esquerda {
+  display: grid;
+  grid-auto-flow: row;
+}
+
+/* Adicionando media queries para responsividade */
+
+@media only screen and (max-width: 1200px) {
+  #container__pai {
+    height: auto; /* Ajustando altura automaticamente */
+  }
+  #texto,
+  #portifolio {
+    padding: 80px 0; /* Removendo padding à direita para telas menores */
+  }
+  #texto {
+    padding-left: 20px; /* Ajustando padding esquerdo para telas menores */
+  }
+  #portifolio {
+    padding-left: 20px; /* Ajustando padding esquerdo para telas menores */
+  }
+  .carousel img {
+    width: 100%; /* Imagens ocupam 100% da largura da tela */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #barra {
+    width: 90%; /* Reduzindo largura da barra para telas menores */
+  }
+  #menu a {
+    font-size: 10px; /* Reduzindo tamanho da fonte do menu para telas menores */
+  }
+  #container__pai #titulo h1 {
+    font-size: 60px; /* Reduzindo tamanho da fonte do título para telas menores */
+  }
+  #container__pai #titulo p {
+    font-size: 60px; /* Reduzindo tamanho da fonte do subtítulo para telas menores */
+  }
+  #container__pai p {
+    font-size: 16px; /* Reduzindo tamanho da fonte do texto para telas menores */
+  }
+  #botao {
+    width: 250px; /* Reduzindo largura do botão para telas menores */
+    font-size: 16px; /* Reduzindo tamanho da fonte do botão para telas menores */
+  }
+  #texto {
+    padding: 80px 0 0 20px; /* Ajustando padding para telas menores */
+    font-size: 30px; /* Reduzindo tamanho da fonte para telas menores */
+  }
+  #texto #sub {
+    font-size: 14px; /* Reduzindo tamanho da fonte do subtítulo para telas menores */
+  }
+  .quadro {
+    width: 150px; /* Reduzindo largura dos quadros para telas menores */
+    height: 150px; /* Reduzindo altura dos quadros para telas menores */
+  }
+  .quadro p {
+    font-size: 12px; /* Reduzindo tamanho da fonte dos quadros para telas menores */
+  }
+  #portifolio h1 {
+    font-size: 30px; /* Reduzindo tamanho da fonte do título do portfólio para telas menores */
+  }
+  #compromisso {
+    padding-top: 40px; /* Ajustando padding superior para telas menores */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #menu a {
+    font-size: 8px; /* Reduzindo ainda mais tamanho da fonte do menu para telas muito pequenas */
+  }
+  #container__pai #titulo h1 {
+    font-size: 40px; /* Reduzindo ainda mais tamanho da fonte do título para telas muito pequenas */
+  }
+  #container__pai #titulo p {
+    font-size: 40px; /* Reduzindo ainda mais tamanho da fonte do subtítulo para telas muito pequenas */
+  }
+  #botao {
+    width: 200px; /* Reduzindo ainda mais largura do botão para telas muito pequenas */
+    font-size: 14px; /* Reduzindo ainda mais tamanho da fonte do botão para telas muito pequenas */
+  }
+  #texto {
+    padding: 80px 0 0 10px; /* Ajustando ainda mais padding para telas muito pequenas */
+    font-size: 24px; /* Reduzindo ainda mais tamanho da fonte para telas muito pequenas */
+  }
+  #texto #sub {
+    font-size: 12px; /* Reduzindo ainda mais tamanho da fonte do subtítulo para telas muito pequenas */
+  }
+  .quadro {
+    width: 120px; /* Reduzindo ainda mais largura dos quadros para telas muito pequenas */
+    height: 120px; /* Reduzindo ainda mais altura dos quadros para telas muito pequenas */
+  }
+  .quadro p {
+    font-size: 10px; /* Reduzindo ainda mais tamanho da fonte dos quadros para telas muito pequenas */
+  }
+  #portifolio h1 {
+    font-size: 24px; /* Reduzindo ainda mais tamanho da fonte do título do portfólio para telas muito pequenas */
+  }
+  #compromisso {
+    padding-top: 20px; /* Ajustando ainda mais padding superior para telas muito pequenas */
+  }
+}
